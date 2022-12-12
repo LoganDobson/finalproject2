@@ -1,0 +1,15 @@
+@import url(./reset.css);
+
+#layout-option-1 main {
+    width: 70%;
+}
+
+#layout-option-1 aside {
+    width: 30%;
+}
+
+#layout-option-1 .content {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}

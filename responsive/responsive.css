@@ -1,0 +1,39 @@
+@media only screen and (max-width: 960px) {
+    header{
+        width: 70%;
+    }
+
+    body{
+        width: 70;
+    }
+
+    main{
+        width: 70%;
+    }
+
+    footer{
+        width: 70;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    header{
+        width: 40%;
+        font-size:medium;
+    }
+    body{
+        width: 40%;
+    }
+    main{
+        width: 40%;
+        
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer{
+        width: 40%;
+    }
+}
